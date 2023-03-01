@@ -1,0 +1,7 @@
+numbers = [1, 2, 3, 4, 5, 6, 7]
+
+tripled_numbers = list(map(lambda x: x * 3, numbers))
+
+print("Original list: ", numbers)
+
+print("Triple of list numbers: ", tripled_numbers)
